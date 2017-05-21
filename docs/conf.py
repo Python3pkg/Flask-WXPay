@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Flask-WXPay'
-copyright = u'2017, codeif'
+project = 'Flask-WXPay'
+copyright = '2017, codeif'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -189,8 +189,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual])
 latex_documents = [
-    ('index', 'Flask-WXPay.tex', u'Flask-WXPay Documentation',
-     u'codeif', 'manual'),
+    ('index', 'Flask-WXPay.tex', 'Flask-WXPay Documentation',
+     'codeif', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -219,8 +219,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'Flask-WXPay', u'Flask-WXPay Documentation',
-     [u'codeif'], 1)
+    ('index', 'Flask-WXPay', 'Flask-WXPay Documentation',
+     ['codeif'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -235,8 +235,8 @@ man_pages = [
 texinfo_documents = [
     ('index',
      'Flask-WXPay',
-     u'Flask-WXPay Documentation',
-     u'codeif',
+     'Flask-WXPay Documentation',
+     'codeif',
      'Flask-WXPay',
      'A Wechat Pay SDK.',
      'Miscellaneous')

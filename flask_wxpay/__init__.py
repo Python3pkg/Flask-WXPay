@@ -90,7 +90,7 @@ class WXPay(object):
     def get_sign(self, data):
         """生成签名"""
         # 签名步骤一: 按字典序排序参数
-        items = sorted(data.items(), key=lambda x: x[0])
+        items = sorted(list(data.items()), key=lambda x: x[0])
         # items.sort(key=lambda x: x[0])
         s = '&'.join('{0}={1}'.format(key, value) for key, value in items)
         # 签名步骤二: 在string后加入KEY

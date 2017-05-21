@@ -26,7 +26,7 @@ def dict_to_xml(*args, **kwargs):
     """参数形式参照flask.jsonify"""
     data = dict(*args, **kwargs)
     xml = ['<xml>']
-    for k, v in data.items():
+    for k, v in list(data.items()):
         if isinstance(v, numeric_types):
             xml.append('<{0}>{1}</{0}>'.format(k, v))
         else:
